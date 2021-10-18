@@ -1,0 +1,38 @@
+
+.mycarousel{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+
+}
+
+
+.sec {
+    width: 100%;
+    height: 75%;
+    img{
+        border-radius: 1rem;
+    }
+    
+}
+.incarousel{
+    
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 1rem;
+    
+    h5{    
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2rem;
+    }
+}   
+
+ 
+@media(max-width:420px){
+    
+    h5{    
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.7rem;
+    }
+
+}
+

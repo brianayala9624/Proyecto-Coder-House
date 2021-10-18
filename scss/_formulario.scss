@@ -1,0 +1,6 @@
+@for $i from 1 through 2{
+    .formulario-#{$i}{
+        font-size: 1rem * $i;
+    }
+
+}

@@ -1,0 +1,67 @@
+
+.article{
+
+    background-color: #BF1534;
+    
+    color: white;
+    border-top: darkorange solid;
+    border-radius: 1rem;
+    padding-top: 0.5rem;
+    
+}
+article {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.contenido{
+    
+    background-color: rgba(244, 165, 96, 0.534);
+    padding-top: 0.5rem;
+    padding-bottom: 00.5rem;
+    border-radius: 1rem;
+
+
+}
+
+.contenido img{
+    
+  
+    border-radius: 1rem;
+
+}
+.card{
+
+    transition: all 2s;
+    &:hover{
+        transform: scale(1.1);
+        
+    }
+
+        
+
+}
+.card--black{
+    @extend .card;
+        background-color:$card--black;
+        p{
+            color: white;
+        }
+    }
+
+
+    
+
+
+.card--white{
+    @extend .card;
+    background-color: $card--white;
+    p{
+        color: rgb(0, 0, 0);
+    }
+}
+
+.titulo--secundario{
+    background-color: rgba(255, 255, 255, 0.226);
+    border-radius: 1rem;
+
+}

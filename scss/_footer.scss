@@ -1,0 +1,53 @@
+
+footer{
+    /* background-color: rgb(59, 58, 58); */
+    background-color: rgb(59, 58, 58) ;
+}
+
+.section-footer{
+    text-align:center;
+    font-family: 'Bebas Neue', cursive;
+    
+    h2{
+        color: white;
+        font-size: 1.4rem;
+    }   
+
+
+    .aFooter{   
+        font-size: 2rem;
+        color: black;
+        text-decoration: solid ;
+        transition: all 3s;
+            @each $red, $color in $redes {
+                &--#{$red}{
+                    &:hover{
+                        color:$color;
+                    }               
+                }            
+            }
+
+     }
+   
+}
+
+.sectionFooterFinal{
+    border-top: solid 0.01rem rgb(167, 163, 163);
+    text-align: center;
+
+    h3{
+        color: aliceblue;        
+        font-size: 0.75rem;
+        text-align: center;
+    }
+}
+    
+
+
+
+
+.sectionFooterFinal img{
+    width: 1.5rem;
+    height: 1.5rem;
+    
+}

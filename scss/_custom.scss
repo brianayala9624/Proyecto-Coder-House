@@ -1,0 +1,50 @@
+
+/////COLORES PARA LA NAVBAR
+
+$primary:#c73651;
+$secondary: #c75836;
+
+
+/// colores para secciones
+$gray:rgb(161, 159, 159);
+
+
+/// COLORES PARA LAS REDES
+$facebook:rgb(36, 4, 180);
+$twitter:rgb(4, 180, 180);
+$instagram:rgb(197, 78, 22);
+$contacto:rgb(110, 110, 110);
+
+
+//// Bordes
+$border-radius: 1rem;
+
+///Cards 
+
+$card--white:rgba(255, 253, 253, 0.534);
+$card--black:rgba(0, 0, 0, 0.534);
+$card-border-radius: $border-radius;
+
+
+/// Carousel
+
+$carousel-control-color: rgba(58, 53, 53, 0.616);
+$carousel-control-icon-width: 3rem;
+$carousel-control-prev-icon-bg: url(../icons/previous-svgrepo-com.svg);
+$carousel-control-next-icon-bg: url(../icons/next-svgrepo-com.svg);
+
+
+
+
+//// REDES FOOTER
+$redes:(
+    facebook:$facebook,
+    twitter:$twitter,
+    instagram:$instagram,
+    contacto:$contacto,
+    
+) ;
+
+
+////// IMPORT DE  BOOTSTRAP/////
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

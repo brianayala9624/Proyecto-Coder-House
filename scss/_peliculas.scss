@@ -1,0 +1,153 @@
+
+.peliculas-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    grid-gap: 0.75rem;
+    padding-top: 1rem;
+}
+.peliculas-item:nth-child(1){
+    grid-column-start: span 1;
+    grid-row-start: span 2;
+
+}
+
+.pelicula-info{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+    align-items: center;
+    transition: all 1s;
+}
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9*/
+    position: relative;
+    iframe {
+        border: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+     }
+   
+  }
+  
+ 
+
+.img-text{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    
+    .article_oscuro { 
+    
+        position: absolute;
+        top: 10%;
+        text-align: center ;
+        
+        
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        font-size: 3rem;
+        left: 10%;
+        right: 10%;
+    
+    
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;    
+        align-items: center;
+        transition: all 1s;
+        border-radius: 1rem;
+       
+    
+    }
+    h4 { 
+    
+   
+        top: 10%;
+        text-align: center ;
+        
+        
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        font-size: 3rem;
+        left: 10%;
+        right: 10%;
+    
+    
+    }
+    p{
+        position: absolute;
+        
+        font-family: 'Noto Sans', sans-serif;
+        color: white;
+        font-size: 1.5rem;
+        padding: 10rem 1rem 1rem 1rem;
+    }
+    &:before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position:absolute;
+        background-color: rgba(0, 0, 0, 0.74);
+        padding-top: 1rem;
+        border-radius: 1rem;
+        padding-bottom:2rem ;
+    
+    }
+}
+.row__peliculas{
+    padding-bottom: 1rem;
+}
+
+@media(max-width:1200px){
+    .peliculas-container{
+        
+        grid-template-columns: repeat(2, 1fr);
+        
+        
+    }
+    .peliculas-item:nth-child(1){
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    
+    }
+    .peliculas-item:nth-child(3){
+        grid-column-start: span 2;
+        grid-row-start: span 2;
+    
+    }
+    
+
+    
+    #video-peliculas{
+        width: 100%;
+        height: 20rem;
+    
+        
+    }
+
+   
+    .img-text .article_oscuro {         
+    
+        font-size: 1.5rem;
+    }
+    
+    .img-text h4 {        
+        font-size: 2rem;    
+    }
+    
+    .img-text p{     
+        
+        font-size: 1rem;
+        
+    }
+}
