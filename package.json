@@ -11,5 +11,13 @@
     "bootstrap": "^5.1.2"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "![CAPTURA](https://github.com/brianayala9624/Proyecto-Coder-House/blob/main/imgs/screem.JPG)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianayala9624/Proyecto-Coder-House.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brianayala9624/Proyecto-Coder-House/issues"
+  },
+  "homepage": "https://github.com/brianayala9624/Proyecto-Coder-House#readme"
 }

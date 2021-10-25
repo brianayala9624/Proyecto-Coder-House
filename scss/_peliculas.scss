@@ -51,7 +51,7 @@
         
         
         font-family: 'Bebas Neue', cursive;
-        color: white;
+        color: rgb(10, 10, 10);
         font-size: 3rem;
         left: 10%;
         right: 10%;
@@ -150,4 +150,16 @@
         font-size: 1rem;
         
     }
+}
+
+@media(max-width:450px){
+    .peliculas-container{
+        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        
+    }
+
 }
