@@ -1,13 +1,24 @@
+@mixin gradient {
+    background: linear-gradient(
+      to right,
+      rgba($primary, 0.95),
+      rgba($secondary, 0.95)
+    );
+  }
 .error404{
     text-align: center;
     color: black;
     font-size: 5rem;
-    @mixin gradient {
-        background: linear-gradient(
-          to right,
-          rgba($primary, 0.95),
-          rgba($secondary, 0.95)
-        );
-      }
+    img{
+        height: 70%;
+    }
+    
+   
+
+}
+
+.main404{
+    @include gradient;
+    height: 100%;
 
 }

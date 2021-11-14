@@ -11513,6 +11513,14 @@ ol {
   color: black;
   font-size: 5rem;
 }
+.error404 img {
+  height: 70%;
+}
+
+.main404 {
+  background: linear-gradient(to right, rgba(199, 54, 81, 0.95), rgba(199, 88, 54, 0.95));
+  height: 100%;
+}
 
 .contenido {
   background-color: rgba(244, 165, 96, 0.534);
