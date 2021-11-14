@@ -1,6 +1,22 @@
 @for $i from 1 through 2{
     .formulario-#{$i}{
-        font-size: 1rem * $i;
+        font-size: 1rem ;
     }
 
 }
+.formulario{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    color: blanchedalmond;
+}
+
+.mensaje{
+    font-size:2rem;
+    color: blanchedalmond;
+}
+.parrafo-formulario{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+

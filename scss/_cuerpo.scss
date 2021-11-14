@@ -15,9 +15,18 @@
             padding-top: 0.5rem;
             padding-bottom: 0.5rem;
         }
-       
-    
+          
     }
+
+    .noticia--black{
+        @extend .noticia;
+        background-color:$card--black;
+        
+        p{
+            color: white;
+        }
+    }
+    
     .titulo--principal{
         
     background-color: rgba(255, 255, 255, 0.226);

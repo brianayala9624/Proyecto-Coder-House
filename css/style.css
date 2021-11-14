@@ -11393,14 +11393,11 @@ main {
 
 p {
   font-family: "Noto Sans", sans-serif;
+  color: black;
 }
 
 ol {
   list-style-type: none;
-}
-
-.article {
-  font-family: "Noto Sans", sans-serif;
 }
 
 .titulo {
@@ -11445,7 +11442,24 @@ ol {
 }
 
 .formulario-2 {
+  font-size: 1rem;
+}
+
+.formulario {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  color: blanchedalmond;
+}
+
+.mensaje {
   font-size: 2rem;
+  color: blanchedalmond;
+}
+
+.parrafo-formulario {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .gallery-container {
@@ -11506,15 +11520,21 @@ ol {
   padding-bottom: 0.5rem;
   border-radius: 1rem;
 }
-.contenido .noticia {
+.contenido .noticia, .contenido .noticia--black {
   border-radius: 1rem;
   background-color: rgba(255, 235, 205, 0.452);
   margin-left: 1rem;
   margin-right: 1rem;
 }
-.contenido .noticia .img--parrafo {
+.contenido .noticia .img--parrafo, .contenido .noticia--black .img--parrafo {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+.contenido .noticia--black {
+  background-color: rgba(0, 0, 0, 0.534);
+}
+.contenido .noticia--black p {
+  color: white;
 }
 .contenido .titulo--principal {
   background-color: rgba(255, 255, 255, 0.226);
