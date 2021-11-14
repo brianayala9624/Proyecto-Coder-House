@@ -82,14 +82,16 @@
         <section> 
             <div class="container col-12">
                 <h1 class="titulo text-center">Contacto</h1>
-         
-            
-            <div class="container contenido row">
-              <div class="col-sm-12 col-lg-6 col-md-6" >
+         </div>
+          <div class="container contenido">
+            <div class="noticia--black row row--section  ">
+              <div class= "formulario col-sm-12 col-lg-6 col-md-6" >
                 <form action="https://formsubmit.co/robiegames9624@gmail.com" method="POST" class="text-center" >
                   <fieldset>
                     <legend>Formulario de contacto y suscripcion</legend>
                     <label class="formulario-1" for="nombre">Nombre :</label>
+                    <br>
+                    
                     <input
                       type="text"
                       name="nombre"
@@ -98,7 +100,8 @@
                       required
                     />
                     <br />
-                    <label class="formulario-2" for="E-mail">E-mail :</label>
+                    <label class="formulario-2 " for="E-mail">E-mail :</label>
+                    <br>
                     <input
                       type="text"
                       name="E-mail"
@@ -107,7 +110,9 @@
                       required
                     />                            
                     <br />
-                    <div>Seleccione contenido favorito </div>
+                    <div>Seleccione contenido favorito 
+                      
+                    </div>
                     <select name="contenido" id="contenido">
                       <option value="t">Todos</option>
                       <option value="P">Peliculas</option>
@@ -115,17 +120,22 @@
                       <option value="s">Series</option>                
                       <option value="n">Ninguno</option>
                     </select>
+                   
                     <br>              
-                    <div>Deseo Recibir Noticias</div>
-                    <input type="checkbox" name="Noticias" id="Noticias" value="Noticias" />
-                    <br>                                        
-                    <label for="mensaje">Mensaje</label>
-                    <br />
-                    <br />
+                    <div class="text-center">Deseo Recibir Noticias</div>
+                    <div class="text-center"><input type="checkbox" name="Noticias" id="Noticias" value="Noticias" />
+                      <br></div>
+                    
+                    <div class="text-center">
+                      <label class="mensaje " for="mensaje">Mensaje(Opcional)</label>
+                      <br />
                     <textarea name="mensaje" id="mensaje" cols="40" rows="10"></textarea>
                     <br />
                     <input type="reset" value="Borrar" />
                     <input type="submit" value="Enviar" />
+                    </div>                                        
+                    
+                    
 
                     <input type="hidden" name="_next" value="https://infopelis.netlify.app/">
                     <input type="hidden" name="_subject" value="Contacto infopelis.netlify.app" >
@@ -133,11 +143,18 @@
                   </fieldset>
                 </form>
                 
-            </div>   
-            <div class="col-sm-12 col-lg-6 col-md-6" >
-              <img src="../imgs/logo.png" alt="">
-            </div>
+            </div> 
+             <div class="col-sm-12 col-lg-6 col-md-6">
+              <div class="text-center" >
+                <p class="parrafo-formulario">No te quedes sin recibir las ultimas novedades en el mundo de cine, series y todo lo relacionado con la industria.</p>
+                <img src="../imgs/logo.png" alt="Logo">
+                
               </div>
+            </div> 
+            
+              </div>
+          </div>   
+           
 
         </section>
         
@@ -171,7 +188,12 @@
         <h3>Derechos reservados por InfoPelis <img src="../imgs/logo.png" alt="Logo"> </h3>
           </section>        
       </footer>
-      <script src="./js/bootstrap.bundle.js"></script>
+       <!--Scripts-->
+       <script
+       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+       crossorigin="anonymous"
+     ></script>
     
 </body>
 </html>
